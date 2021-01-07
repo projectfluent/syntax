@@ -159,7 +159,7 @@ let PatternElement = defer(() =>
         block_placeable));
 
 let inline_text = defer(() =>
-    repeat1(text_char)
+    repeat(text_char)
     .map(join)
     .chain(into(FTL.TextElement)));
 
@@ -174,12 +174,12 @@ let block_text = defer(() =>
 let inline_placeable = defer(() =>
     sequence(
         string("{"),
-        maybe(blank),
+        not(blank),
         either(
             // Order matters!
             SelectExpression,
             InlineExpression),
-        maybe(blank),
+        not(blank),
         string("}"))
     .map(element_at(2))
     .chain(into(FTL.Placeable)));
