@@ -79,7 +79,7 @@ literal-quote2 = Text in "double quotes".
 ```
 
 Quoted text should be used sparingly, most often in scenarios which call for
-a special character, or when enclosing a characters in `{"` and `"}` makes
+a special character, or when enclosing characters in `{"` and `"}` makes
 them easier to spot. For instance, the non-breaking space character looks
 like a regular space in most text editors and it's easy to miss in a
 translation. A Unicode escape sequence inside of a quoted text may be used
