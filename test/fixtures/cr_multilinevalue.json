@@ -1,0 +1,23 @@
+{
+    "type": "Resource",
+    "body": [
+        {
+            "type": "Message",
+            "id": {
+                "type": "Identifier",
+                "name": "key01"
+            },
+            "value": {
+                "type": "Pattern",
+                "elements": [
+                    {
+                        "type": "TextElement",
+                        "value": "\r\r    Value 03\r    Continued\r\r    and continued\r    \r    and continued\r\r    .title = Title\r\r\r### This entire file uses CR as EOL.\r"
+                    }
+                ]
+            },
+            "attributes": [],
+            "comment": null
+        }
+    ]
+}

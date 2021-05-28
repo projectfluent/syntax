@@ -1,0 +1,10 @@
+{
+    "type": "Resource",
+    "body": [
+        {
+            "type": "Junk",
+            "annotations": [],
+            "content": "err01 = { $sel -> }\r\r# ERROR Missing newline after ->.\r### This entire file uses CR as EOL.\r"
+        }
+    ]
+}

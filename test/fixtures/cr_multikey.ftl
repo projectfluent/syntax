@@ -1,0 +1,1 @@
+key01 = Value 01err02 = Value 02### This entire file uses CR as EOL.

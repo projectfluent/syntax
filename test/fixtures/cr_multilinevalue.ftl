@@ -1,0 +1,1 @@
+key01 =    Value 03    Continued    and continued        and continued    .title = Title### This entire file uses CR as EOL.

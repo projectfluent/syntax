@@ -1,0 +1,10 @@
+{
+    "type": "Resource",
+    "body": [
+        {
+            "type": "Junk",
+            "annotations": [],
+            "content": "err01 = { \"str\r\r# ERROR Unclosed StringLiteral\r\rr### This entire file uses CR as EOL.\r"
+        }
+    ]
+}

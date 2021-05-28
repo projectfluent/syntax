@@ -5,6 +5,10 @@ key02 =
     Value 02
     Continued
 
+    and continued
+    
+    and continued
+
     .title = Title
 
 # ERROR Unclosed StringLiteral

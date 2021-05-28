@@ -1,0 +1,1 @@
+err01 = { "str# ERROR Unclosed StringLiteralr### This entire file uses CR as EOL.

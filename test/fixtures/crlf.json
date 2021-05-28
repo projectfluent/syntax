@@ -30,7 +30,7 @@
                 "elements": [
                     {
                         "type": "TextElement",
-                        "value": "Value 02\nContinued"
+                        "value": "Value 02\nContinued\n\nand continued\n\nand continued"
                     }
                 ]
             },
