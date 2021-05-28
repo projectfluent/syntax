@@ -39,7 +39,7 @@ expressions with multiple variants of the same term value.
 -brand-name =
     { $case ->
        *[nominative] Firefox
-        [locative] Firefoxa
+        [locative] Firefoksie
     }
 
 # "About Firefox."
@@ -62,7 +62,7 @@ without any parentheses, the default variant will be used.
 -brand-name =
     { $case ->
        *[nominative] Firefox
-        [locative] Firefoxa
+        [locative] Firefoksie
     }
 
 # "Firefox has been successfully updated."
